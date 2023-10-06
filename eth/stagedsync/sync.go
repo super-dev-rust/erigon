@@ -113,6 +113,7 @@ func (s *Sync) UnwindTo(unwindPoint uint64, badBlock libcommon.Hash) {
 }
 
 func (s *Sync) IsDone() bool {
+	return true
 	return s.currentStage >= uint(len(s.stages)) && s.unwindPoint == nil
 }
 
