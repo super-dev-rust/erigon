@@ -1,5 +1,11 @@
 DATA_DIR=erigon_data
 
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+POSTGRES_HOST=/tmp/docker/
+POSTGRES_PORT=5432
+POSTGRES_DB=postgres
+
 build/bin/erigon \
   --no-downloader=true \
   --snapshots=false \

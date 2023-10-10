@@ -1152,6 +1152,7 @@ func (ss *GrpcServer) Messages(req *proto_sentry.MessagesRequest, server proto_s
 		case <-server.Context().Done():
 			return nil
 		case in := <-ch:
+			// 481516
 			if err := server.Send(in); err != nil {
 				ss.logger.Warn("Sending msg to core P2P failed", "msg", in.Id.String(), "err", err)
 				return err
