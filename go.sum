@@ -424,6 +424,8 @@ github.com/ledgerwatch/secp256k1 v1.0.0 h1:Usvz87YoTG0uePIV8woOof5cQnLXGYa162rFf
 github.com/ledgerwatch/secp256k1 v1.0.0/go.mod h1:SPmqJFciiF/Q0mPt2jVs2dTr/1TZBTIA+kPMmKgBAak=
 github.com/ledgerwatch/trackerslist v1.1.0 h1:eKhgeURD9x/J3qzMnL6C0e0cLy6Ld7Ck/VR/yF+7cZQ=
 github.com/ledgerwatch/trackerslist v1.1.0/go.mod h1:wWU/V810cpsEl//o49ebwAWf0BL0WOJiu/577L4IVok=
+github.com/lib/pq v1.10.9 h1:YXG7RB+JIjhP29X+OtkiDnYaXQwpS4JEWq7dtCCRUEw=
+github.com/lib/pq v1.10.9/go.mod h1:AlVN5x4E4T544tWzH6hKfbfQvm3HdbOxrmggDNAPY9o=
 github.com/libp2p/go-buffer-pool v0.1.0 h1:oK4mSFcQz7cTQIfqbe4MIj9gLW+mnanjyFtc6cdF0Y8=
 github.com/libp2p/go-buffer-pool v0.1.0/go.mod h1:N+vh8gMqimBzdKkSMVuydVDq+UV5QTWy5HSiZacSbPg=
 github.com/libp2p/go-cidranger v1.1.0 h1:ewPN8EZ0dd1LSnrtuwd4709PXVcITVeuwbag38yPW7c=
@@ -740,8 +742,8 @@ github.com/stretchr/testify v1.8.2/go.mod h1:w2LPCIKwWwSfY2zedu0+kehJoqGctiVI29o
 github.com/stretchr/testify v1.8.3/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXlSw2iwfAo=
 github.com/stretchr/testify v1.8.4 h1:CcVxjf3Q8PM0mHUKJCdn+eZZtm5yQwehR5yeSVQQcUk=
 github.com/stretchr/testify v1.8.4/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXlSw2iwfAo=
-github.com/super-dev-rust/erigon-lib v0.0.0-20231010140720-f25ccc34dad8 h1:zAKDv4A4VlC9wzO0mf5G9wj4Gq0DQDqlbLz5KWlsUGA=
-github.com/super-dev-rust/erigon-lib v0.0.0-20231010140720-f25ccc34dad8/go.mod h1:oLOdYPxA8JCiCk1BUs3S9E4i97nO5JT77kZi4Xu3yWA=
+github.com/super-dev-rust/erigon-lib v0.0.0-20231010163219-b18204623b34 h1:hY285pWJ/JeLsPzUo0XxGEVl6zVOqoDOrX2pRRKm9mU=
+github.com/super-dev-rust/erigon-lib v0.0.0-20231010163219-b18204623b34/go.mod h1:DL/XQRP8uY0pX42RfzvpAlO/Z5BuGo+BpGwVPZWbkqI=
 github.com/supranational/blst v0.3.11 h1:LyU6FolezeWAhvQk0k6O/d49jqgO52MSDDfYgbeoEm4=
 github.com/supranational/blst v0.3.11/go.mod h1:jZJtfjgudtNl4en1tzwPIV3KjUnQUvG3/j+w+fVonLw=
 github.com/tarm/serial v0.0.0-20180830185346-98f6abe2eb07/go.mod h1:kDXzergiv9cbyO7IOYJZWg1U88JhDg3PB6klq9Hg2pA=

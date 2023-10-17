@@ -1,10 +1,10 @@
 DATA_DIR=erigon_data
 
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=postgres
-POSTGRES_HOST=/tmp/docker/
-POSTGRES_PORT=5432
-POSTGRES_DB=postgres
+export POSTGRES_USER=postgres
+export POSTGRES_PASSWORD=postgres
+export POSTGRES_HOST=localhost
+export POSTGRES_PORT=5432
+export POSTGRES_DB=polydash
 
 build/bin/erigon \
   --no-downloader=true \
